@@ -9,7 +9,6 @@ Available states
 
 ``vagrant.init``
 --------------------
-
 Install Vagrant with its dependencies
 
 Documentation
