@@ -7,10 +7,7 @@ Install Hashicorp Vagrant with it's dependencies (Gentoo Linux only)
 Available states
 ================
 
-.. contents::
-    :local:
-
-``memcached.server``
+``vagrant.init``
 --------------------
 
 Install Vagrant with its dependencies
