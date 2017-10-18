@@ -10,6 +10,6 @@ keyword-{{ pkg }}:
 {% endfor %}
 
 app-emulation/vagrant:
-  pkg.installed
+  pkg.latest
 
 {% endif %}
