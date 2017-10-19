@@ -9,7 +9,9 @@ keyword-{{ pkg }}:
     - append_if_not_found: True
 {% endfor %}
 
-app-emulation/vagrant:
-  pkg.latest
+vagrant:
+  pkg.installed:
+    - name: app-emulation/vagrant
+    - version: latest
 
 {% endif %}
